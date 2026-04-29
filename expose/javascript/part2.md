@@ -32,9 +32,9 @@
 * E. true == 2 = false. true is converted to 1, so 1 == 2 is false.
 * F. true === Boolean(2) = true. Boolean(2) is true, so true === true is also true.
 15. == does type conversion when it compares, while === is a strict equality and does not perform type conversion. This way, '2' == 2 is true but '2' === 2 is false.
-16. see [part2-questions16.js](/sp26-cse110-lab4/expose/javascript/part2-question16.js)
+16. see [part2-questions16.js](/expose/javascript/part2-question16.js)
 17. The result is the function returns newArr that is [2, 4, 6]. First the modifyArray call has parameters of [1, 2 ,3] and the function doSomething, which multiplies the number by 2. Then, for every element in array, push the number of the array multiplied by two (by calling the function doSomething). Thus, newArr will be the elements of [1, 2, 3] multiplied by two, resulting in [2, 4, 6].
-18. see [part2-questions18.js](/sp26-cse110-lab4/expose/javascript/part2-question18.js)
+18. see [part2-questions18.js](/expose/javascript/part2-question18.js)
 19. output:
 1
 4
