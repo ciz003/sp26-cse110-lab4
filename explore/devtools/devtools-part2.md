@@ -1,0 +1,2 @@
+1. The bug was that the inputs for num1 and num2 were strings rather than numbers.
+2. I would fix it by converting num1 and num2 to a number before adding it to result. See [fix.png](/expand/screenshots/fix.png) for the screenshot.
